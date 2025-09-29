@@ -152,13 +152,67 @@
     </div>
 
     <script>
-        // Membuat 50 menu item
+        // Array untuk menyimpan link masing-masing tombol
+        const menuLinks = [
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 1
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 2
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 3
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 4
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 5
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 6
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 7
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 8
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 9
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 10
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 11
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 12
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 13
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 14
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 15
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 16
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 17
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 18
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 19
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 20
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 21
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 22
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 23
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 24
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 25
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 26
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 27
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 28
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 29
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 30
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 31
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 32
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 33
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 34
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 35
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 36
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 37
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 38
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 39
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 40
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 41
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 42
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 43
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 44
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 45
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 46
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 47
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 48
+            'https://mathnology3.github.io/SOSIOLOGI-1/', // Sosiologi 49
+            'https://mathnology3.github.io/SOSIOLOGI-1/'  // Sosiologi 50
+        ];
+
+        // Membuat 50 menu item dengan link yang bisa disesuaikan
         const menuGrid = document.getElementById('menuGrid');
         
         for (let i = 1; i <= 50; i++) {
             const menuItem = document.createElement('a');
             menuItem.className = 'menu-item';
-            menuItem.href = 'https://mathnology3.github.io/SOSIOLOGI-1/';
+            menuItem.href = menuLinks[i - 1]; // Menggunakan link dari array
             
             menuItem.innerHTML = `
                 <div class="number">${i}</div>
@@ -168,5 +222,5 @@
             menuGrid.appendChild(menuItem);
         }
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'986b98e8d2e587e1',t:'MTc1OTE1MDEzMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'986bbdc597f98938',t:'MTc1OTE1MTY0Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
